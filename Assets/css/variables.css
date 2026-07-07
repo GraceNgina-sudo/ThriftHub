@@ -1,0 +1,40 @@
+:root {
+
+    /* Primary Colors */
+    --primary: #2E7D32;
+    --primary-light: #4CAF50;
+
+    /* Secondary */
+
+    --secondary: #333333;
+
+    /* Accent */
+
+    --accent: #FFC107;
+
+    /* Background */
+
+    --background: #F8F9FA;
+
+    /* White */
+
+    --white: #FFFFFF;
+
+    /* Text */
+
+    --text-dark: #222;
+    --text-light: #666;
+
+    /* Border */
+
+    --border: #E0E0E0;
+
+    /* Shadow */
+
+    --shadow: 0 6px 18px rgba(0,0,0,.08);
+
+    /* Radius */
+
+    --radius:12px;
+
+}
