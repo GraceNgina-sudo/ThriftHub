@@ -4,7 +4,7 @@
 
     <div class="logo">
 
-        <h2>VaaHub</h2>
+        <h2>ThriftHub</h2>
 
     </div>
 

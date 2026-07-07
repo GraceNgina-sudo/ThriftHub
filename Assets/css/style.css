@@ -62,9 +62,17 @@ nav{
 
 .logo{
 
-    color:var(--primary);
+    display:flex;
 
-    font-weight:700;
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.logo-icon{
+
+    font-size:2rem;
 
 }
 
@@ -111,5 +119,113 @@ nav{
     color:white;
 
     border-radius:8px;
+
+}
+
+.hero{
+
+    min-height:85vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.hero-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:60px;
+
+}
+
+.tag{
+
+    display:inline-block;
+
+    background:#E8F5E9;
+
+    color:var(--primary);
+
+    padding:10px 20px;
+
+    border-radius:50px;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.hero h1{
+
+    font-size:3.5rem;
+
+    margin-bottom:20px;
+
+    color:var(--secondary);
+
+}
+
+.hero p{
+
+    color:var(--text-light);
+
+    margin-bottom:35px;
+
+    font-size:1.1rem;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.shop-btn{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.shop-btn:hover{
+
+    background:#256428;
+
+}
+
+.seller-btn{
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    border-radius:20px;
 
 }
