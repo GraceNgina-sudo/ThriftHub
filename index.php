@@ -242,3 +242,199 @@
     </div>
 
 </section>
+
+<section class="how-it-works">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>How ThriftHub Works</h2>
+
+            <p>
+                Shopping for your next thrift find has never been easier.
+            </p>
+
+        </div>
+
+        <div class="steps-grid">
+
+            <div class="step-card">
+
+                <div class="step-number">1</div>
+
+                <h3>Browse</h3>
+
+                <p>
+                    Search thousands of thrift items by category, size, brand or style.
+                </p>
+
+            </div>
+
+            <div class="step-card">
+
+                <div class="step-number">2</div>
+
+                <h3>Order</h3>
+
+                <p>
+                    Add your favourite items to the cart and checkout securely.
+                </p>
+
+            </div>
+
+            <div class="step-card">
+
+                <div class="step-number">3</div>
+
+                <h3>Enjoy</h3>
+
+                <p>
+                    Receive your order and enjoy affordable sustainable fashion.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="why-us">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Why Choose ThriftHub?</h2>
+
+            <p>
+                We make thrift shopping easier, safer and more enjoyable.
+            </p>
+
+        </div>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+
+                <h3>✔ Verified Sellers</h3>
+
+                <p>
+                    Shop confidently from trusted sellers.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <h3>✔ Affordable Prices</h3>
+
+                <p>
+                    Great fashion without breaking the bank.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <h3>✔ Sustainable Fashion</h3>
+
+                <p>
+                    Give clothes a second life while protecting the environment.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <h3>✔ Secure Checkout</h3>
+
+                <p>
+                    Safe and convenient payments.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="newsletter">
+
+    <div class="container newsletter-content">
+
+        <h2>Stay Updated</h2>
+
+        <p>
+            Be the first to know about new arrivals, exclusive deals and fashion trends.
+        </p>
+
+        <form>
+
+            <input
+                type="email"
+                placeholder="Enter your email address"
+                required>
+
+            <button type="submit">
+                Subscribe
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <h2>ThriftHub</h2>
+
+            <p>
+                Kenya's trusted marketplace for affordable and sustainable thrift fashion.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">Shop</a></li>
+
+                <li><a href="#">About</a></li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Contact</h3>
+
+            <p>Email: support@thrifthub.co.ke</p>
+
+            <p>Nairobi, Kenya</p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

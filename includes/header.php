@@ -11,13 +11,13 @@ content="width=device-width, initial-scale=1.0">
 <title>ThriftHub</title>
 
 <link rel="stylesheet"
-href="/assets/css/variables.css">
+href="Assets/css/variables.css">
 
 <link rel="stylesheet"
-href="/assets/css/style.css">
+href="Assets/css/style.css">
 
 <link rel="stylesheet"
-href="/assets/css/responsive.css">
+href="Assets/css/responsive.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
