@@ -2,13 +2,7 @@
 
 <?php include 'includes/navbar.php'; ?>
 
-
-
-<!-- Homepage sections go here -->
-
-
-
-<?php include 'includes/footer.php'; ?>
+<!-- ================= HERO SECTION ================= -->
 
 <section class="hero">
 
@@ -34,7 +28,7 @@
                     Shop Now
                 </a>
 
-                <a href="#" class="seller-btn">
+                <a href="auth/register.php" class="seller-btn">
                     Become a Seller
                 </a>
 
@@ -44,7 +38,7 @@
 
         <div class="hero-image">
 
-            <img src="assets/images/hero.png"
+            <img src="Assets/images/hero.png"
                  alt="Thrift Fashion">
 
         </div>
@@ -53,13 +47,7 @@
 
 </section>
 
-<div class="logo">
-
-    <span class="logo-icon">🧥</span>
-
-    <h2>ThriftHub</h2>
-
-</div>
+<!-- ================= CATEGORIES ================= -->
 
 <section class="categories">
 
@@ -113,6 +101,8 @@
 
 </section>
 
+<!-- ================= FEATURED PRODUCTS ================= -->
+
 <section class="featured-products">
 
     <div class="container">
@@ -129,11 +119,9 @@
 
         <div class="products-grid">
 
-            <!-- Product 1 -->
-
             <div class="product-card">
 
-                <img src="assets/images/products/product1.jpg"
+                <img src="Assets/images/products/product1.jpg"
                      alt="Vintage Denim Jacket">
 
                 <div class="product-info">
@@ -156,11 +144,9 @@
 
             </div>
 
-            <!-- Product 2 -->
-
             <div class="product-card">
 
-                <img src="assets/images/products/product2.jpg"
+                <img src="Assets/images/products/product2.jpg"
                      alt="Floral Summer Dress">
 
                 <div class="product-info">
@@ -183,11 +169,9 @@
 
             </div>
 
-            <!-- Product 3 -->
-
             <div class="product-card">
 
-                <img src="assets/images/products/product3.jpg"
+                <img src="Assets/images/products/product3.jpg"
                      alt="Nike Sneakers">
 
                 <div class="product-info">
@@ -210,11 +194,9 @@
 
             </div>
 
-            <!-- Product 4 -->
-
             <div class="product-card">
 
-                <img src="assets/images/products/product4.jpg"
+                <img src="Assets/images/products/product4.jpg"
                      alt="Leather Handbag">
 
                 <div class="product-info">
@@ -242,6 +224,8 @@
     </div>
 
 </section>
+
+<!-- ================= HOW IT WORKS ================= -->
 
 <section class="how-it-works">
 
@@ -300,6 +284,8 @@
     </div>
 
 </section>
+
+<!-- ================= WHY CHOOSE US ================= -->
 
 <section class="why-us">
 
@@ -363,6 +349,8 @@
 
 </section>
 
+<!-- ================= NEWSLETTER ================= -->
+
 <section class="newsletter">
 
     <div class="container newsletter-content">
@@ -390,51 +378,5 @@
 
 </section>
 
-<footer>
+<?php include 'includes/footer.php'; ?>
 
-    <div class="container footer-content">
-
-        <div>
-
-            <h2>ThriftHub</h2>
-
-            <p>
-                Kenya's trusted marketplace for affordable and sustainable thrift fashion.
-            </p>
-
-        </div>
-
-        <div>
-
-            <h3>Quick Links</h3>
-
-            <ul>
-
-                <li><a href="#">Home</a></li>
-
-                <li><a href="#">Shop</a></li>
-
-                <li><a href="#">About</a></li>
-
-                <li><a href="#">Contact</a></li>
-
-            </ul>
-
-        </div>
-
-        <div>
-
-            <h3>Contact</h3>
-
-            <p>Email: support@thrifthub.co.ke</p>
-
-            <p>Nairobi, Kenya</p>
-
-        </div>
-
-    </div>
-
-</footer>
-
-</body>
-</html>

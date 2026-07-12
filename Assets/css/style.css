@@ -666,3 +666,357 @@ footer a:hover{
     color:var(--accent);
 
 }
+
+/* ==========================
+   AUTHENTICATION
+========================== */
+
+.auth-container{
+
+    min-height:80vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:60px 20px;
+
+}
+
+.auth-form{
+
+    width:100%;
+
+    max-width:450px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.auth-form h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:var(--secondary);
+
+}
+
+.auth-form input,
+.auth-form select{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:1rem;
+
+}
+
+.auth-form button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:1rem;
+
+}
+
+.auth-form button:hover{
+
+    background:#256428;
+
+}
+
+.success-message{
+
+    background:#d4edda;
+
+    color:#155724;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+}
+
+.error-message{
+
+    background:#f8d7da;
+
+    color:#721c24;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+}
+
+.auth-link{
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.auth-link a{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+/* ===========================
+   SELLER DASHBOARD
+=========================== */
+
+.dashboard{
+
+    padding:70px 0;
+
+}
+
+.dashboard h1,
+.dashboard h2{
+
+    color:var(--secondary);
+
+    margin-bottom:25px;
+
+}
+
+.dashboard-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-bottom:40px;
+
+    flex-wrap:wrap;
+
+}
+
+.dashboard-buttons a{
+
+    text-decoration:none;
+
+}
+
+/* ===========================
+   PRODUCT FORM
+=========================== */
+
+.product-form{
+
+    background:white;
+
+    max-width:700px;
+
+    margin:50px auto;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.product-form h2{
+
+    margin-bottom:30px;
+
+    color:var(--secondary);
+
+}
+
+.product-form label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.product-form input,
+.product-form textarea,
+.product-form select{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:1rem;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+.product-form textarea{
+
+    resize:vertical;
+
+}
+
+.product-form button{
+
+    width:100%;
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.product-form button:hover{
+
+    background:#256428;
+
+}
+
+/* ===========================
+   PRODUCTS TABLE
+=========================== */
+
+.products-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:40px;
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+}
+
+.products-table th{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:18px;
+
+    text-align:left;
+
+}
+
+.products-table td{
+
+    padding:18px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.products-table tr:hover{
+
+    background:#fafafa;
+
+}
+
+.products-table img{
+
+    width:80px;
+
+    height:80px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+   ALERTS
+=========================== */
+
+.success{
+
+    background:#E8F5E9;
+
+    color:#2E7D32;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-bottom:25px;
+
+}
+
+.error{
+
+    background:#FDECEA;
+
+    color:#C62828;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-bottom:25px;
+
+}
