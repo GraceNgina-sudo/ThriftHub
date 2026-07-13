@@ -72,7 +72,7 @@ $products = $stmt->fetchAll();
 
                 ?>
 
-                    <img src="../Assets/images/placeholders/no-image.png" alt="No Image">
+                    <img src="../uploads/products/shirt2.jpg" alt="No Image">
 
                 <?php
 

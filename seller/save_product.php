@@ -13,6 +13,11 @@ if(!isset($_SESSION['user_id'])){
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 
+echo "<pre>";
+print_r($_FILES);
+echo "</pre>";
+exit();
+
     $seller_id = $_SESSION['user_id'];
 
     $product_name = trim($_POST['product_name']);
@@ -23,15 +28,17 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
     $image = "";
 
-    if(isset($_FILES['image']) && $_FILES['image']['error']==0){
+    if(isset($_FILES['image']) && $_FILES['image']['error'] == 0){
 
-        $imageName = time()."_".basename($_FILES['image']['name']);
+        $imageName = time() . "_" . basename($_FILES['image']['name']);
 
-        $target = "../uploads/products/".$imageName;
+        $target = "../uploads/products/" . $imageName;
 
-        move_uploaded_file($_FILES['image']['tmp_name'],$target);
+        if(move_uploaded_file($_FILES['image']['tmp_name'], $target)){
 
-        $image = $imageName;
+            $image = $imageName;
+
+        }
 
     }
 
@@ -39,15 +46,15 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
         INSERT INTO products
 
-        (seller_id,product_name,description,category,size,price,image)
+        (seller_id, product_name, description, category, size, price, image)
 
         VALUES
 
-        (?,?,?,?,?,?,?)
+        (?, ?, ?, ?, ?, ?, ?)
 
     ");
 
-    $stmt->execute([
+    $stmt->execute(array(
 
         $seller_id,
         $product_name,
@@ -57,9 +64,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         $price,
         $image
 
-    ]);
+    ));
 
     header("Location: my_products.php");
     exit();
 
 }
+
+?>

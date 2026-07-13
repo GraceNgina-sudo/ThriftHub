@@ -12,7 +12,7 @@
 
         <li><a href="index.php">Home</a></li>
 
-        <li><a href="#">Shop</a></li>
+        <li><a href="/ThriftHub/shop.php">Shop</a></li>
 
         <li><a href="#">Categories</a></li>
 
