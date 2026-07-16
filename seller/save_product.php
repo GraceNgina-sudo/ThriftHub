@@ -13,10 +13,6 @@ if(!isset($_SESSION['user_id'])){
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 
-echo "<pre>";
-print_r($_FILES);
-echo "</pre>";
-exit();
 
     $seller_id = $_SESSION['user_id'];
 

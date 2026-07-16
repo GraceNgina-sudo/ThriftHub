@@ -60,11 +60,11 @@ $products = $stmt->fetchAll();
 
                 <?php
 
-                if(!empty($product['image']) && file_exists("../uploads/products/".$product['image'])){
+                if(!empty($product['image']) && file_exists("../uploads/".$product['image'])){
 
                 ?>
 
-                    <img src="../uploads/products/<?php echo $product['image']; ?>" alt="Product">
+                    <img src="../uploads/<?php echo $product['image']; ?>" alt="Product">
 
                 <?php
 
@@ -72,7 +72,7 @@ $products = $stmt->fetchAll();
 
                 ?>
 
-                    <img src="../uploads/products/shirt2.jpg" alt="No Image">
+                    <img src="../uploads/shirt2.jpg" alt="No Image">
 
                 <?php
 

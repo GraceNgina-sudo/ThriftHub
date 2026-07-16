@@ -561,69 +561,145 @@ nav{
 
 }
 
-/* ==========================
-   NEWSLETTER
-========================== */
+/* Mailchimp Form Styles */
 
-.newsletter{
-
-    background:var(--primary);
-
-    color:white;
-
-    padding:80px 0;
-
-    text-align:center;
-
+/* Define CSS variables based on existing styles */
+:root {
+    --primary: #388e3c; /* Inferred from various green elements */
+    --secondary: #333; /* Inferred from dark text colors */
+    --accent: #ffc107; /* Example accent color, not explicitly defined but good to have */
+    --background: #f4f4f4; /* Inferred from step-card background */
+    --text-dark: #333; /* Inferred from body color */
+    --text-light: #666; /* Inferred from hero p color */
+    --white: #fff;
+    --shadow: 0 4px 8px rgba(0,0,0,0.1);
+    --radius: 15px;
 }
 
-.newsletter p{
-
-    margin:20px auto;
-
-    max-width:600px;
-
+#mc_embed_signup {
+    background: var(--background);
+    color: var(--text-dark);
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    max-width: 600px; /* Adjust as needed */
+    margin: 50px auto; /* Center the form */
+    clear: both;
 }
 
-.newsletter form{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:15px;
-
-    margin-top:30px;
-
+#mc_embed_signup h2 {
+    font-size: 2.5rem;
+    color: var(--secondary);
+    margin-bottom: 25px;
+    text-align: center;
 }
 
-.newsletter input{
-
-    width:350px;
-
-    padding:15px;
-
-    border:none;
-
-    border-radius:8px;
-
+#mc_embed_signup .indicates-required {
+    text-align: right;
+    margin-bottom: 10px;
+    color: var(--text-light);
 }
 
-.newsletter button{
-
-    background:var(--accent);
-
-    border:none;
-
-    padding:15px 30px;
-
-    border-radius:8px;
-
-    cursor:pointer;
-
-    font-weight:600;
-
+#mc_embed_signup .asterisk {
+    color: red;
 }
+
+#mc_embed_signup .mc-field-group {
+    margin-bottom: 20px;
+}
+
+#mc_embed_signup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+#mc_embed_signup input[type="email"],
+#mc_embed_signup input[type="text"],
+#mc_embed_signup select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; /* Ensure padding doesn't increase width */
+}
+
+#mc_embed_signup input[type="email"]:focus,
+#mc_embed_signup input[type="text"]:focus,
+#mc_embed_signup select:focus {
+    border-color: var(--primary);
+    outline: none;
+}
+
+#mc_embed_signup .button {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .3s;
+    font-weight: 600;
+}
+
+#mc_embed_signup .button:hover {
+    background: #256428; /* A slightly darker shade of primary */
+}
+
+#mc_embed_signup .response {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: none; /* Hidden by default, Mailchimp JS will show */
+}
+
+#mc_embed_signup #mce-error-response {
+    background: #f8d7da; /* Inferred from .error */
+    color: #721c24; /* Inferred from .error */
+}
+
+#mc_embed_signup #mce-success-response {
+    background: #d4edda; /* Inferred from .success */
+    color: #155724; /* Inferred from .success */
+}
+
+#mc_embed_signup .refferal_badge {
+    width: 220px;
+    height: 40px;
+    display: flex;
+    padding: 2px 0px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0; /* Center the badge below the button */
+}
+
+/* Mailchimp specific overrides to ensure consistency */
+#mc_embed_signup form {
+    padding: 0; /* Override Mailchimp's default form padding */
+}
+
+#mc_embed_signup .mc-address-group .mc-field-group {
+    margin-bottom: 20px;
+}
+
+#mc_embed_signup .mc-address-fields-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#mc_embed_signup .mc-address-fields-group .mc-field-group {
+    margin-bottom: 0;
+}
+
 
 /* ==========================
    FOOTER

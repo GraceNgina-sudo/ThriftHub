@@ -40,7 +40,7 @@ if(!$product){
 
 <div class="product-image">
 
-<img src="uploads/products/<?php echo $product['image']; ?>">
+<img src="uploads/<?php echo $product['image']; ?>">
 
 </div>
 

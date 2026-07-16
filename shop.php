@@ -135,7 +135,7 @@ Search
 
                 <?php
 
-                $image = "uploads/products/" . $product['image'];
+                $image = "uploads/" . $product['image'];
 
                  if(!empty($product['image'])){
 
@@ -150,7 +150,7 @@ Search
 
                 ?>
 
-                    <img src="uploads/products/shirt2.jpg" alt="No Image">
+                    <img src="uploads/shirt1.jpg" alt="No Image">
                         
 
                 <?php
